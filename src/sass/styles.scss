@@ -1,1 +1,84 @@
-// THIS IS WHERE YOU WRITE YOUR SASS MAGIC
+:root {
+
+	// COLORS
+	--brand-primary: #D23B19;
+	--brand-secondary: #010000;
+	--brand-tertier: #fff;
+	--font-primary: 'Work Sans', sans-serif;
+	--gutter: 2rem;
+  	background-color: var(--brand-primary);
+  	color: var(--brand-tertier);
+  	height: 100vh;
+  	font-family: var(--font-primary);
+  	font-size: 62.5%;
+}
+
+* {
+
+	margin: 0;
+  	padding: 0;
+  	outline: none;
+
+}
+
+
+.slide-wrap {
+
+	display: grid;
+	grid-gap: var(--gutter);
+	grid-template-columns: repeat(12,1fr);	
+	height: calc(100vh - 80px);	
+
+}
+
+.slide {
+
+	padding-top: 10.9rem;
+
+	&--intro {
+
+		grid-column: 6 / 12;
+
+	}	
+
+}
+
+.footer {
+	
+	align-items: center;
+	display: flex;
+	height: 80px;
+	justify-content: center;
+	grid-column: 1 / 12;	
+
+}
+
+// TYPOGRAPHY
+
+.headline-1 {
+
+	font-size: 9.6rem;
+	line-height: 0.95;
+	margin-bottom: 9rem;
+
+}
+
+.paragraph {
+	
+	font-size: 3.6rem;
+	line-height: 1.4;
+	margin-bottom: 3rem;
+
+	&--small {
+
+		font-size: 1.6rem;
+
+	}
+
+}
+
+.link {
+
+	color: var(--brand-tertier);
+
+}

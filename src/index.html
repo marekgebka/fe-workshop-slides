@@ -7,7 +7,7 @@
 
     
 
-    <!-- Set character encoding for the document -->
+	    <!-- Set character encoding for the document -->
 		<meta charset="utf-8">
 
 		<!-- Instruct Internet Explorer to use its latest rendering engine -->
@@ -29,139 +29,48 @@
 		<link rel="apple-touch-icon" href="/custom-icon.png">
 
 		<!-- Microsoft Tiles -->
-		<meta name="msapplication-config" content="browserconfig.xml">
+		<meta name="msapplication-config" content="browserconfig.xml">		
+
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Raleway:300|Work+Sans:900" rel="stylesheet">
 
 		<!-- Link to your stylesheets -->
-
-		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/styles.css">		
 
 		<!-- Document Title -->
-		<title>FE-Boilerplate made with ❤ by Sebastian &amp; Marek.</title>
-
-		<!-- Boilerplate-styles. You can delete this. -->
-		<style>*{font-family:'Helvetica',Arial,sans-serif;margin:0;padding:0;box-sizing:border-box}body{background-color:#2196ce;height:100vh}header{padding:1rem;color:#2196ce;height:100vh;position:fixed;width:80px}main{height:calc(100vh - 80px);padding:3rem;color:#fff; width:calc(100% - 300px);margin-left: auto;}.igniter-intro{margin-left:auto;height: 100vh;max-width:900px;transform:rotate(16deg) skew(16deg,0deg) translate(0,4rem) translateZ(0)}.igniter-intro h1{color:#fff;font-size:3rem;text-align:right;margin-bottom:0}div{border-radius:1rem;margin-top:1rem;padding:2rem;color:#2196ce}div p{background:#fff;display:inline-block;font-size:1.8rem;font-weight:bold;margin-bottom:2rem;padding:1rem}ul{list-style:none}ul:after{content:'';clear:both;display:table}li{background:#fff;display:inline-block;float:left;font-size:1.4rem;margin:0 1rem 1rem 0;padding:1rem;transition:150ms ease-in transform;transform:scale(1)}li:hover{transform:scale(0.95)}footer{padding:1rem;color:#fff;height:80px;display:flex;align-items:center;justify-content:center}
-
-			.igniter-sidebar {
-
-				border-right: 1px solid rgba(255,255,255,0.25);
-				height: 100vh;
-				left: 0;
-				padding: 2rem 0;
-				position: fixed;
-				top: 0;
-				width: 300px;
-
-			}
-
-			.igniter-sidebarAnchor {
-
-				background:  transparent;
-				background-size: 100% 0;
-				color: #fff;
-				display: block;
-				padding: 0.8rem 2rem;
-				text-decoration: none;				
-				transition: 150ms ease-in background, color;
-
-			}
-
-			.igniter-sidebarAnchor:hover {
-
-				background: #fff;
-				background-size: 100% 100%;
-				color: #2196ce;				
-
-			}
-
-	</style>
+		<title>FE-Workshop-Slides</title>		
 
 	</head>		
 
 	<body>
-		
-		<!-- Example Structure -->
 
-		<!-- This might be your header and / or navigation for example -->
-		<nav class="igniter-sidebar">
-			
-			<a href="#typography" class="igniter-sidebarAnchor">
-				Typography
-			</a>
-
-			<a href="#buttons" class="igniter-sidebarAnchor">
-				Buttons
-			</a>
-
-			<a href="#forms" class="igniter-sidebarAnchor">
-				Forms
-			</a>
-
-		</nav>
-
-		<!-- Your page content should go in here -->
-		<main>
-			
-			<!-- Replace or rebuild all of this content if you want -->
-			<section class="igniter-intro">				
+		<main class="slide-wrap">
+						
+			<section class="slide slide--intro">				
 				
-				<h1>Thanks for using web-igniter!</h1>
+				<h1 class="headline-1">Hi! Welcome to my slides about FE-development.</h1>
 
-				<div>
-					
-					<p>Your boilerplate includes:</p>
+				<p class="paragraph">
+					This is a loose series of stuff that I've picked up as a web- &amp; UI-Designer throughout the years.
+				</p>
 
-					<ul>
+				<p class="paragraph">
+					If you want to contribute you can find the repo <a href="https://github.com/marekgebka/fe-workshop-slides" class="link link--inline">here</a>.
+				</p>
 
-			            <li><span>💪 Webpack!</span></li>
-
-			            <li><span>💪 Livereload magic!</span></li>
-
-			            <li><span>💪 SASS!</span></li>
-
-			            
-			            <li><span>💪 jQuery</span></li>
-			            
-
-			            
-
-					</ul>
-
-				</div>	
-
-			</section>
-
-			<article id="typography">
+				<!-- <p class="paragraph">
+					You can navigate through the slides by pressing the spacebar or ← and → arrow keys. 
+				</p> -->
 				
-				<h1 class="headline-one">Headline H1</h1>
 
-				<h2 class="headline-two">Headline H2</h2>
-
-				<h3 class="headline-three">Headline H3</h3>
-
-				<h4 class="headline-four">Headline H4</h4>
-
-				<h5 class="headline-five">Headline H5</h5>
-
-				<h6 class="headlin">Headline H6</h6>
-
-			</article>
-
-			<article id="buttons">
-				
-				<button class="btn">I am a button</button>
-
-				<button class="btn btn--primary">I am a button</button>
-
-			</article>
-
+			</section>			
       
 
 		</main>
 
-		<!-- This is going to be your footer -->
-		<footer>
+		<footer class="footer">
 			
-			 <p> Made with ❤ in Ober-Ramstadt and Seeheim</p>
+			 <p class="paragraph--small"> Made with ❤ in Ober-Ramstadt</p>
 
 		</footer>		
 
