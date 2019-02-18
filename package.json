@@ -5,9 +5,12 @@
   "private": true,
   "main": "index.js",
   "dependencies": {
+    "lodash": "^4.17.11",
     "webpack": "^4.29.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "webpack-cli": "^3.2.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
