@@ -1,0 +1,25 @@
+{
+  "name": "fe-workshop-slides",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^4.29.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marekgebka/fe-workshop-slides.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marekgebka/fe-workshop-slides/issues"
+  },
+  "homepage": "https://github.com/marekgebka/fe-workshop-slides#readme"
+}
